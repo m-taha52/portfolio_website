@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import "./About.scss"
 import {motion} from 'framer-motion'
 import { urlFor, client } from '../../client'
-import {images} from "../../constants"
+import { AppWrap } from '../../wrapper'
 
 const About = () => {
 
@@ -15,7 +15,7 @@ const About = () => {
   
   return (
       <>
-        <h2 className='head-text' style={{marginTop: "2rem"}}> I know that 
+        <h2 className='head-text'> I know that 
         <span> Good Design </span> <br />
         means
         <span> Good Business </span>
@@ -42,4 +42,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AppWrap(About, "about")
