@@ -39,11 +39,11 @@ const Footer = () => {
         <div className='app__footer-cards'>
             <div className='app__footer-card'>
                 <img src={images.email} alt="email" />
-                <a href="mailto:mohammedt243@gmail.com" className='p-text' > Email </a>
+                <a href="mailto:mohammedt243@gmail.com" className='p-text' > mohdta52@gmail.com </a>
             </div>
             <div className='app__footer-card'>
                 <img src={images.mobile} alt="mobile" />
-                <a href="tel: +255 000 000 " className='p-text' > Phone Number </a>
+                <a href="tel: +255 000 000 " className='p-text' > +91 9168379085 </a>
             </div>
         </div>
 {
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
             <button type='button' className='p-text' onClick={handleSubmit}> {loading ? "Sending" : "Send Message" } </button>
         </div>  
-        
+
   :     <div> 
           <h3 className='head-text'> Thank you for getting in touch </h3>
         </div>

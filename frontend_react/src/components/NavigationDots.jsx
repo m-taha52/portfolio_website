@@ -3,7 +3,7 @@ import React from 'react'
 const NavigationDots = ({active}) => {
   return (
     <div className='app__navigation'>
-       { ["home", 'about', 'contact', 'work', 'skills', "testimonials", "contact"].map((item, index) => (
+       { ["home", 'about','work', 'skills', "testimonials", "contact"].map((item, index) => (
                     <li className="app__flex p-text" key={`link=${item}`}> 
                             <a 
                             href={`#${item}`}

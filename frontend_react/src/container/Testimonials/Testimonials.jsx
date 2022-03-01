@@ -80,4 +80,4 @@ const Testimonials = () => {
   )
 }
 
-export default AppWrap(MotionWrap(Testimonials, "app__testimonials"), "testimonial", "app__primarybg")
+export default AppWrap(MotionWrap(Testimonials, "app__testimonials"), "testimonials", "app__primarybg")
