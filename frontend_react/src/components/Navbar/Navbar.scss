@@ -161,3 +161,14 @@
         display: none;
       }
 }
+
+.logo {
+    color: var(--grey-color);
+    text-decoration: none;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: larger;
+    font-family: --var(--font-base);
+    letter-spacing: 0.25rem;
+}
